@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 28 22:47:26 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>177 seconds (177669 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testbase.SearchHotelTest.TC_11_testWithoutLocation()'><b>TC_11_testWithoutLocation</b><br>Test class: testbase.SearchHotelTest</td>
+<td></td>
+<td>6</td>
+<td>testbase.SearchHotelTest@52bf72b5</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_17_testWithoutBillingAddress()'><b>TC_17_testWithoutBillingAddress</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>4</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+<tr>
+<td title='testbase.SearchHotelTest.TC_10_testDateBedoreInDate()'><b>TC_10_testDateBedoreInDate</b><br>Test class: testbase.SearchHotelTest</td>
+<td></td>
+<td>6</td>
+<td>testbase.SearchHotelTest@52bf72b5</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_13_testWithOutClickingRadioButton()'><b>TC_13_testWithOutClickingRadioButton</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>0</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_14_testGoToBookingPage()'><b>TC_14_testGoToBookingPage</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>0</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_18_testWithoutCardNumber()'><b>TC_18_testWithoutCardNumber</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>4</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_19_testBookWithValidData()'><b>TC_19_testBookWithValidData</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>7</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_16_testWithoutLastname()'><b>TC_16_testWithoutLastname</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>4</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+<tr>
+<td title='testbase.SearchHotelTest.TC_08_testMissingInDate()'><b>TC_08_testMissingInDate</b><br>Test class: testbase.SearchHotelTest</td>
+<td></td>
+<td>15</td>
+<td>testbase.SearchHotelTest@52bf72b5</td></tr>
+<tr>
+<td title='testbase.SearchHotelTest.TC_12_testWithoutRoomType()'><b>TC_12_testWithoutRoomType</b><br>Test class: testbase.SearchHotelTest</td>
+<td></td>
+<td>6</td>
+<td>testbase.SearchHotelTest@52bf72b5</td></tr>
+<tr>
+<td title='testbase.LoginTest.TC_06_testvalidlogin()'><b>TC_06_testvalidlogin</b><br>Test class: testbase.LoginTest</td>
+<td></td>
+<td>4</td>
+<td>testbase.LoginTest@1aa7ecca</td></tr>
+<tr>
+<td title='testbase.ChangePasswordTest.TC_21_testChangePassword()'><b>TC_21_testChangePassword</b><br>Test class: testbase.ChangePasswordTest</td>
+<td></td>
+<td>2</td>
+<td>testbase.ChangePasswordTest@515aebb0</td></tr>
+<tr>
+<td title='testbase.LoginTest.TC_01_testLoginButtonVisible()'><b>TC_01_testLoginButtonVisible</b><br>Test class: testbase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testbase.LoginTest@1aa7ecca</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_20_testItinerary()'><b>TC_20_testItinerary</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>12</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+<tr>
+<td title='testbase.LoginTest.TC_03_testInvalidUsernameAndvalidPassword()'><b>TC_03_testInvalidUsernameAndvalidPassword</b><br>Test class: testbase.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>testbase.LoginTest@1aa7ecca</td></tr>
+<tr>
+<td title='testbase.LoginTest.TC_04_testInvalidUsernameAndValidPassword()'><b>TC_04_testInvalidUsernameAndValidPassword</b><br>Test class: testbase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testbase.LoginTest@1aa7ecca</td></tr>
+<tr>
+<td title='testbase.SearchHotelTest.TC_09_testMissingOutDate()'><b>TC_09_testMissingOutDate</b><br>Test class: testbase.SearchHotelTest</td>
+<td></td>
+<td>5</td>
+<td>testbase.SearchHotelTest@52bf72b5</td></tr>
+<tr>
+<td title='testbase.LogoutTest.TC_22_testlogout()'><b>TC_22_testlogout</b><br>Test class: testbase.LogoutTest</td>
+<td></td>
+<td>2</td>
+<td>testbase.LogoutTest@dd8ba08</td></tr>
+<tr>
+<td title='testbase.SearchHotelTest.TC_07_testSearchHotel()'><b>TC_07_testSearchHotel</b><br>Test class: testbase.SearchHotelTest</td>
+<td></td>
+<td>6</td>
+<td>testbase.SearchHotelTest@52bf72b5</td></tr>
+<tr>
+<td title='testbase.LoginTest.TC_05_testInvalidUsernameAndInvalidPassword()'><b>TC_05_testInvalidUsernameAndInvalidPassword</b><br>Test class: testbase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testbase.LoginTest@1aa7ecca</td></tr>
+<tr>
+<td title='testbase.LoginTest.TC_02_tesLogintButtonClickable()'><b>TC_02_tesLogintButtonClickable</b><br>Test class: testbase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testbase.LoginTest@1aa7ecca</td></tr>
+<tr>
+<td title='testbase.BookHotelTest.TC_15_testWithoutFirstname()'><b>TC_15_testWithoutFirstname</b><br>Test class: testbase.BookHotelTest</td>
+<td></td>
+<td>5</td>
+<td>testbase.BookHotelTest@37afeb11</td></tr>
+</table><p>
+</body>
+</html>
